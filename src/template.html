@@ -6,6 +6,42 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <ul class="projectsContainer">
+        </ul>
+    </header>
+    <div class="content">
+        <ul class="todosContainer">
+        </ul>
+    </div>
+    <button class="removeAllProjects">Remove all projects</button>
+    <button class="addProject">Add project</button>
+    <button class="addTodo">Add todo</button>
+    <dialog class="addTodoDialog">
+        <form action="#" method="dialog" class="addTodoForm">
+            <div class="formInputs">
+                <label for="title">Title: </label>
+                <input type="text" name="title" id="title">
+                <label for="dueDate">Due date: </label>
+                <input type="text" name="dueDate" id="dueDate">
+            </div>
+            <div class="formBtns">
+                <button class="submit">OK</button>
+                <button class="cancel" type="button">Cancel</button>
+            </div>
+        </form>
+    </dialog>
+    <dialog class="addProjectDialog">
+        <form action="#" method="dialog" class="addProjectForm">
+            <div class="formInputs">
+                <label for="title">Title: </label>
+                <input type="text" name="title" id="title">
+            </div>
+            <div class="formBtns">
+                <button class="submit">OK</button>
+                <button class="cancel" type="button">Cancel</button>
+            </div>
+        </form>
+    </dialog>
 </body>
 </html>

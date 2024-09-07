@@ -1,0 +1,41 @@
+ul {
+    list-style-type: none;
+}
+
+.todosContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.todo {
+    display: grid;
+    grid-template-columns: 1fr 5fr 4fr;
+}
+
+.projectsContainer {
+    display: flex;
+}
+
+.check {
+    width: 30px;
+    height: 30px;
+    align-self: center;
+    background-color: #4D8;
+    border: 2px solid #000;
+    border-radius: 50%;
+}
+
+.check:hover {
+    filter: brightness(80%);
+}
+
+.formInputs {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 1rem;
+}
+
+.formBtns {
+    display: flex;
+    justify-content: space-around;
+}
